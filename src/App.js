@@ -1,10 +1,13 @@
 import React from "react";
+import GlobalStyle from "./globalStyles";
+import Layout from "./components/layout/Layout";
 
 const App = () => {
 	return (
-		<div className="App">
-			<h1>Creating Finology Landing page!</h1>
-		</div>
+		<>
+			<GlobalStyle />
+			<Layout />
+		</>
 	);
 };
 
